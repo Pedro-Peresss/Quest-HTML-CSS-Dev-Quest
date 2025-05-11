@@ -1,0 +1,104 @@
+
+body{
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    background: url(../images/bg-desktop.svg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    position: relative;
+}
+
+.header{
+ padding: 55px 72px;
+}
+
+.header .image-logo{
+    width: 210px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    padding: 25px 72px  72px 72px;
+    gap: 52px; 
+}
+
+.container .image-project{
+    max-width: 800px;
+}
+
+.container .image-project img{
+    width: 100%;
+}
+
+.container .info-project{
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+    padding: 42px 0;
+    gap: 10px;
+    color: #fff;
+}
+
+.container .info-project h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.container .info-project p{
+    padding: 12px 0 16px;
+    line-height: 26px;
+    font-size: 18px;
+}
+
+.container .info-project .btn-register a{
+    font-size: 18px;
+    color: hsl(257, 40%, 49%);
+    display: inline-block;
+    background-color: #fff;
+    padding: 16px 66px;
+    border-radius: 50px;
+}
+
+.container .info-project .btn-register a:hover{
+    color: #fff;
+    background-color: hsl(300, 69%, 71%);
+    transition: 0.3s;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 13px 80px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer .social ul{
+    display: flex;
+    gap: 12px;
+}
+
+.footer .social ul li a i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-left: 4px;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.footer .social a i:hover{
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+    border-radius: 50%;
+    transition: 0.3s;
+}

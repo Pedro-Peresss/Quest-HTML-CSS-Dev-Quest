@@ -3,11 +3,28 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 0;
+    }
+
+    .container .info-project {
+        text-align: center;
+        max-width: 100%;
+        gap: 20px;
     }
 
     .container .info-project h2 {
         font-size: 46px;
     }
+
+    .container .info-project p{
+        padding: 0 10vw;
+    }
+    
+    .footer {
+        justify-content: center;
+        padding: 10px 0;
+    }
+
 
 }
 
@@ -19,23 +36,12 @@
         background-color: hsl(257, 40%, 49%);
     }
 
-    .container {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .container .info-project {
-        text-align: center;
-    }
-
     .container .info-project .btn-register {
         display: flex;
         justify-content: center;
     }
 
     .footer {
-        position: relative;
         justify-content: center;
         padding: 10px 0;
     }
@@ -62,32 +68,22 @@
 
     .container {
         gap: 0;
-        padding: 20px 25px;
     }
-
-    .container .image-project {
-        padding: 7px 18px 25px 16px;
+    .container .image-project{
+    min-width: 90vw;
+    height: auto;
+    padding: 30px 20px;
+}
+    .container .info-project{
+        padding: 35px 0;
     }
-
-    .container .info-project {
-        padding-top: 38px;
-        gap: 3px;
-    }
-
     .container .info-project h2 {
-        font-size: 27px;
-    }
-
-    .container .info-project p {
-        padding: 12px 18px 14px;
-        line-height: 27px;
-        font-size: 18px;
-
+        font-size: 26px;
     }
 
     .container .info-project .btn-register a {
-        padding: 14px 88px;
-        margin-top: 12px;
+        padding: 14px 86px;
+        margin-top: 6px;
         font-size: 14px;
         display: flex;
     }
